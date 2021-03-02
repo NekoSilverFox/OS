@@ -2,6 +2,143 @@
 
 [toc]
 
+# C++中函数的说明及介绍
+
+## 变量类型
+
+### LPCWSTR
+
+LPCWSTR是一个指向unicode编码字符串的32位指针，所指向字符串是wchar型，而不是char型
+
+
+
+### STARTUPINFO
+
+STARTUPINFO用于指定新进程的主窗口特性的一个结构。
+
+```c++
+typedef struct _STARTUPINFO {
+    DWORD cb;
+    LPTSTR lpReserved;
+    LPTSTR lpDesktop;
+    LPTSTR lpTitle;
+    DWORD dwX;
+    DWORD dwY;
+    DWORD dwXSize;
+    DWORD dwYSize;
+    DWORD dwXCountChars;
+    DWORD dwYCountChars;
+    DWORD dwFillAttribute;
+    DWORD dwFlags;
+    WORD wShowWindow;
+    WORD cbReserved2;
+    LPBYTE lpReserved2;
+    HANDLE hStdInput;
+    HANDLE hStdOutput;
+    HANDLE hStdError;
+} STARTUPINFO, *LPSTARTUPINFO;
+```
+
+```
+DWORD cb; //包含STARTUPINFO结构中的字节数.如果Microsoft将来扩展该结构,它可用作版本控制手段，应用程序必须将cb初始化为sizeof(STARTUPINFO)。
+
+LPSTR lpReserved; //保留。必须初始化为NULL。
+
+LPSTR lpDesktop; //用于标识启动应用程序所在的桌面的名字。如果该桌面存在，新进程便与指定的桌面相关联。如果桌面不存在，便创建一个带有默认属性的桌面，并使用为新进程指定的名字。如果lpDesktop是NULL（这是最常见的情况),那么该进程将与当前桌面相关联。
+
+LPSTR lpTitle; //用于设定控制台窗口的名称。如果lpTitle是NULL，则可执行文件的名字将用作窗口名
+
+DWORD dwX; //用于设定应用程序窗口在屏幕上应该放置的位置的x和y坐标（以像素为单位）。
+
+DWORD dwY; 只有当子进程用CW_USEDEFAULT作为CreateWindow的x参数来创建它的第一个重叠窗口时,
+才使用这两个坐标。若是创建控制台窗口的应用程序，这些成员用于指明控制台窗口的左上角
+
+DWORD dwXSize; //用于设定应用程序窗口的宽度和长度（以像素为单位）只有dwYsize
+
+DWORD dwYSize; 当子进程将CW_USEDEFAULT用作CreateWindow的nWidth参数来创建它的第一个重叠窗口时，才使用这些值。
+
+DWORD dwXCountChars; //用于设定子应用程序的控制台窗口的宽度和高度（以字符为单位）
+
+DWORD dwYCountChars;
+
+DWORD dwFillAttribute; //用于设定子应用程序的控制台窗口使用的文本和背景颜色
+
+DWORD dwFlags; //请参见下一段和表4 - 7 的说明
+
+WORD wShowWindow; //用于设定如果子应用程序初次调用的ShowWindow将SW_SHOWDEFAULT作为nCmdShow参数传递时，该应用程序的第一个重叠窗口应该如何出现。
+
+本成员可以是通常用于ShowWindow 函数的任何一个SW _ *标识符
+
+WORD cbReserved2; //保留。必须被初始化为0
+
+PBYTE lpReserved2; //保留。必须被初始化为NULL
+
+HANDLE hStdInput; //用于设定供控制台输入和输出用的缓存的句柄。按照默认设置，hStdInput用于标识键盘缓存，hStdOutput和hStdError用于标识控制台窗口的缓存
+```
+
+
+
+### PROCESS_INFORMATION
+
+创建进程时相关的数据结构之一，该结构返回有关新进程及其主线程的信息
+
+```c++
+typedef struct_PROCESS_INFORMATION{
+HANDLE hProcess;
+HANDLE hThread;
+DWORD dwProcessId;
+DWORD dwThreadId;
+}PROCESS_INFORMATION;
+
+其中成员含义如下。
+① hProcess：返回新进程的句柄。
+② hThread：返回主线程的句柄。
+③ dwProcessId：返回一个全局进程标识符。该标识符用于标识一个进程。从进程被
+创建到终止，该值始终有效。
+④ dwThreadId：返回一个全局线程标识符。该标识符用于标识一个线程。从线程被创
+建到终止，该值始终有效。
+```
+
+
+
+### HANDLE
+
+在[程序设计](https://zh.wikipedia.org/wiki/程序设计)中，**句柄**（**handle**）是[Windows操作系统](https://zh.wikipedia.org/wiki/Windows操作系统)用来标识被应用程序所建立或使用的对象的整数。**其本质相当于带有引用计数的[智能指针](https://zh.wikipedia.org/wiki/智能指针)**。当一个[应用程序](https://zh.wikipedia.org/wiki/应用程序)要引用其他系统（如[数据库](https://zh.wikipedia.org/wiki/数据库)、[操作系统](https://zh.wikipedia.org/wiki/操作系统)）所管理的[内存](https://zh.wikipedia.org/wiki/内存)块或[对象](https://zh.wikipedia.org/wiki/对象_(计算机科学))时，可以使用句柄。
+
+
+
+### LPVOID
+
+**LPVOID是一个没有类型的指针**，也就是说你可以将LPVOID类型的[变量赋值](https://baike.baidu.com/item/变量赋值/23729660)给任意类型的指针，比如在参数传递时就可以把任意类型传递给一个LPVOID类型为参数的方法，然后在方法内再将这个“任意类型”从传递时的“LPVOID类型”转换回来。具体请看下面的示例程序，其中LPVOID lParam即为空类型指针，而CMyClass即为任意类型指针
+
+
+
+## 函数/方法
+
+### ZeroMemory
+
+- 声明
+
+  void ZeroMemory( PVOID Destination,SIZE_T Length );
+
+- 参数
+
+  Destination :指向一块准备用0来填充的内存区域的开始地址。
+
+  Length :准备用0来填充的[内存](https://baike.baidu.com/item/内存/103614)区域的大小，按[字节](https://baike.baidu.com/item/字节)来计算。
+
+- 返回值
+
+  无
+
+- 作用
+
+  **ZeroMemory只是将指定的内存块清零**。
+
+  使用结构前清零，而不让结构的成员数值具有不确定性，是一个好的编程习惯。
+
+
+
 # 操作系统的功能和目标
 
 ![image-20210223185732441](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210223185732441.png)
@@ -43,11 +180,15 @@
 
 其中，**并发和共享是两个基本特征，二者互为存在条件**
 
-## 并发
+## 并发 (Параллельные вычисления 并发计算)
 
 并发：指的是**两个或多个事件**在同一时间**间隔**发生。这些事件**宏观上是同时发生**的，但**微观上是交替发生**的。
 
 并行：并行指的是，两个或多个事件在**同一时刻同时发生**
+
+并发计算：Параллельные вычисления - **concurrent computing**
+
+并行计算：Параллельные вычислительные системы - **parallel computing**
 
 ![image-20210223191605582](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210223191605582.png)
 
@@ -238,3 +379,81 @@
 ## 总结
 
 ![image-20210223223058356](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210223223058356.png)
+
+## 进程的状态和转换
+
+![image-20210302201254833](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210302201254833.png)
+
+![image-20210302201450917](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210302201450917.png)
+
+![image-20210302201737342](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210302201737342.png)
+
+![image-20210302202315958](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210302202315958.png)
+
+![image-20210302202329686](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210302202329686.png)
+
+## 进程控制
+
+![image-20210302205715657](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210302205715657.png)
+
+![image-20210302205817901](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210302205817901.png)
+
+![image-20210302210017897](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210302210017897.png)
+
+![image-20210302210224048](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210302210224048.png)
+
+![image-20210302210416894](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210302210416894.png)
+
+![image-20210302210518482](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210302210518482.png)
+
+![image-20210302210626800](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210302210626800.png)
+
+![image-20210302210701999](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210302210701999.png)
+
+![image-20210302210729171](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210302210729171.png)
+
+## 进程通信
+
+![image-20210302210743089](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210302210743089.png)
+
+![image-20210302210938669](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210302210938669.png)
+
+![image-20210302211119421](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210302211119421.png)
+
+![image-20210302211333423](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210302211333423.png)
+
+![image-20210302211558271](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210302211558271.png)
+
+![image-20210302211642745](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210302211642745.png)
+
+# 线程
+
+![image-20210302225616050](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210302225616050.png)
+
+![image-20210302225721748](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210302225721748.png)
+
+![image-20210302225957875](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210302225957875.png)
+
+![image-20210302230114869](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210302230114869.png)
+
+![image-20210302230301583](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210302230301583.png)
+
+![image-20210302230450192](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210302230450192.png)
+
+- **在计算机中，透明指的是看不到，不透明指的是能看到。可以理解为 透明 == 隐形 == 看不到**
+
+![image-20210302230814728](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210302230814728.png)
+
+![image-20210302230948039](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210302230948039.png)
+
+![image-20210302231722383](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210302231722383.png)
+
+![image-20210302233039347](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210302233039347.png)
+
+![image-20210302233147051](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210302233147051.png)
+
+![image-20210302233229607](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210302233229607.png)
+
+![image-20210302233725317](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210302233725317.png)
+
+下一集P13
