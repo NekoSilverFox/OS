@@ -456,4 +456,59 @@ DWORD dwThreadId;
 
 ![image-20210302233725317](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210302233725317.png)
 
-下一集P13
+# 处理机调度
+
+## 处理机调度的基本概念和层次
+
+![image-20210306154403007](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210306154403007.png)
+
+![image-20210306154557264](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210306154557264.png)
+
+![image-20210306154704576](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210306154704576.png)
+
+![image-20210306155015239](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210306155015239.png)
+
+![image-20210306155222949](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210306155222949.png)
+
+![image-20210306155334229](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210306155334229.png)
+
+![image-20210306155529719](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210306155529719.png)
+
+![image-20210306155627184](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210306155627184.png)
+
+## 进程调度的时机切换与过程调度方式
+
+![image-20210306160310821](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210306160310821.png)
+
+![image-20210306160518722](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210306160518722.png)
+
+![image-20210306161041786](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210306161041786.png)
+
+![image-20210306161051919](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210306161051919.png)
+
+![image-20210306161433412](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210306161433412.png)
+
+![image-20210306161606132](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210306161606132.png)
+
+![image-20210306161818629](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210306161818629.png)
+
+![image-20210306161932623](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210306161932623.png)
+
+## 调度算法的评价指标
+
+![image-20210306162011723](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210306162011723.png)
+
+![image-20210306162138991](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210306162138991.png)
+
+![image-20210306162226926](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210306162226926.png)
+
+![image-20210306162357184](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210306162357184.png)
+
+![image-20210306162543847](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210306162543847.png)
+
+![image-20210306162758781](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210306162758781.png)
+
+![image-20210306162831876](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210306162831876.png)
+
+![image-20210306162905075](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210306162905075.png)
+
