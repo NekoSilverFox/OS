@@ -20,29 +20,24 @@ ssize_t mesg_recv(int id, struct mymesg *mptr);
 int main(int argc,char **argv)
 {
         int readid, writeid;
-	key_t key1,key2;
 
 	printf("Server: Hello tvk!\n");
 
-/*
-	if((key1=ftok("/home/tvk/IPC/input.txt",'A'))<0)
-	{
-		printf("Server: can not get key!\n"); exit(1);
-	}
-	printf("key1=%x\n",key1);
-*/
+    // int msgget(key_t key, int msgflag) - 消息队列函数
+    // key：函数ftok的返回值或IPC_PRIVATE
+    // msgflag： IPC_CREAT:创建新的消息队列
+    // 【重点】 在创建消息队列或者共享内存的时候,会用到这个原语
+    // 0666从左向右:
+	// 第一位:表示这是个八进制数 000
+	// 第二位:当前用户的经权限:6=110(二进制),每一位分别对就 可读,可写,可执行,,6说明当前用户可读可写不可执行
+	// 第三位:group组用户,6的意义同上
+	// 第四位:其它用户,每一位的意义同上,0表示不可读不可写也不可执行
 	if((readid=msgget(MQ_KEY1, 0666|IPC_CREAT))<0)
 	{
 		printf("Server: can not get readid!\n"); exit(1);
 	}
 	printf("Server: readid=%d\n",readid);
-/*	
-	if((key2=ftok("/home/tvk/IPC/server_msg.c",'B'))<0)
-	{
-		printf("Server: can not get key!\n"); exit(1);
-	}
-	printf("key2=%x\n",key2);
-*/
+
 	if((writeid=msgget(MQ_KEY2, 0666|IPC_CREAT))<0)
 	{
 		printf("Server: can not get readid!\n"); exit(1);
@@ -64,6 +59,8 @@ void server(int readid, int writeid)
 	
 	ourmesg.mesg_type=1;
 
+	// 异步或进程间通信的一种机制，这两个函数主要用于操作特定的消息队列
+	// msgrcv()可以从消息队列中读取消息
 	if( (n=mesg_recv(readid, &ourmesg)) == 0)
 	{
 		printf("Server: can not read file name\n");
@@ -86,6 +83,7 @@ void server(int readid, int writeid)
 		{ 
 			ourmesg.mesg_len=strlen(ourmesg.mesg_data);
 			printf("Server: %s\n",ourmesg.mesg_data);
+			// msgsnd()将一个新的消息写入队列
 			mesg_send(writeid,&ourmesg);
 		}
 	}

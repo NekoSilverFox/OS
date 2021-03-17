@@ -35,6 +35,9 @@ int main(int argc,char **argv)
 
         client(readid,writeid);
 
+        // int msgctl(int msqid,int cmd,struct msqid_ds *buf),
+        // msgctl系统调用对msqid标识的消息队列执行cmd操作列
+        // IPC_RMID：删除这片共享内存
         if((msgctl(readid,IPC_RMID, NULL)) < 0)
 	{
 		printf("Client: can not delete massage queue2!\n"); exit(1);
