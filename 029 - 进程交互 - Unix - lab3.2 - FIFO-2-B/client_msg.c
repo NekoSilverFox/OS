@@ -21,13 +21,13 @@ int main(int argc,char **argv)
 {
         int readid, writeid;
 
-        if( (writeid=msgget(MQ_KEY1,0666)) <0)
+    if( (writeid=msgget(MQ_KEY1,0666)) <0)
 	{
 		printf("Client: can not get writeid!\n"); exit(1);
 	}
 	printf("Client:writeid=%d\n",writeid);
 
-        if((readid=msgget(MQ_KEY2,0666)) <0)
+    if((readid=msgget(MQ_KEY2,0666)) <0)
 	{
 		printf("Client: can not get readid!\n"); exit(1);
 	}
@@ -35,10 +35,10 @@ int main(int argc,char **argv)
 
         client(readid,writeid);
 
-        // int msgctl(int msqid,int cmd,struct msqid_ds *buf),
-        // msgctl系统调用对msqid标识的消息队列执行cmd操作列
-        // IPC_RMID：删除这片共享内存
-        if((msgctl(readid,IPC_RMID, NULL)) < 0)
+    // int msgctl(int msqid,int cmd,struct msqid_ds *buf),
+    // msgctl系统调用对msqid标识的消息队列执行cmd操作列
+    // IPC_RMID：删除这片共享内存
+    if((msgctl(readid,IPC_RMID, NULL)) < 0)
 	{
 		printf("Client: can not delete massage queue2!\n"); exit(1);
 	}
@@ -74,9 +74,9 @@ void client(int readid, int writeid)
  	
 	printf("Client: tvk before recv!\n");
 
-       while((n= mesg_recv(readid, &ourmesg))>0)
+    while((n= mesg_recv(readid, &ourmesg))>0)
 	//n= mesg_recv(readid, &ourmesg);
-                write(1,ourmesg.mesg_data, n);
+    write(1,ourmesg.mesg_data, n);
 }
 
 ssize_t mesg_send(int id, struct mymesg *mptr)
@@ -94,7 +94,3 @@ ssize_t mesg_recv(int id, struct mymesg *mptr)
 
 	return(n);	
 }
-
-
-
-

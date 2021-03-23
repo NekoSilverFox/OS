@@ -1,3 +1,4 @@
+// Взаимодействие процессов
 #include <stdio.h>
 #include <fcntl.h>
 #include <sys/types.h>
@@ -29,10 +30,10 @@ int main(int argc,char **argv)
     // 【重点】 在创建消息队列或者共享内存的时候,会用到这个原语
     // 0666从左向右:
 	// 第一位:表示这是个八进制数 000
-	// 第二位:当前用户的经权限:6=110(二进制),每一位分别对就 可读,可写,可执行,,6说明当前用户可读可写不可执行
+	// 第二位:当前用户的经权限(права):6=110(二进制),每一位分别对就 可读,可写,可执行,,6说明当前用户可读可写不可执行
 	// 第三位:group组用户,6的意义同上
 	// 第四位:其它用户,每一位的意义同上,0表示不可读不可写也不可执行
-	if((readid=msgget(MQ_KEY1, 0666|IPC_CREAT))<0)
+	if((readid=msgget(MQ_KEY1, 0666|IPC_CREAT))<0) // примитивы
 	{
 		printf("Server: can not get readid!\n"); exit(1);
 	}
@@ -51,9 +52,9 @@ int main(int argc,char **argv)
 
 void server(int readid, int writeid)
 {
-        FILE *fp;
-        ssize_t n;
-        struct mymesg ourmesg;
+    FILE *fp;
+    ssize_t n;
+    struct mymesg ourmesg;
 	
 	printf("Server:readid=%d writeid=%d\n",readid,writeid);
 	
@@ -70,7 +71,7 @@ void server(int readid, int writeid)
 
 	printf("Server: file name %s\n",ourmesg.mesg_data);
 
-        if( (fp=fopen(ourmesg.mesg_data,"r"))==NULL)
+    if( (fp=fopen(ourmesg.mesg_data,"r"))==NULL)
 	{
 		printf("Server: can not open file name\n");
                 	
@@ -106,7 +107,3 @@ ssize_t mesg_recv(int id, struct mymesg *mptr)
 
 	return(n);	
 }
-
-
-
-
