@@ -1,0 +1,2 @@
+C:\Users\mi\Desktop\Programma\OS\030 - 虚拟内存 - Win\Debug\030 - 虚拟内存 - Win.exe
+C:\Users\mi\Desktop\Programma\OS\030 - 虚拟内存 - Win\Debug\030 - 虚拟内存 - Win.pdb

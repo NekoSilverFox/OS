@@ -1,0 +1,2 @@
+C:\Users\mi\Desktop\Programma\OS\031 - 内存文件 - Win\Debug\031 - 内存文件 - Win.exe
+C:\Users\mi\Desktop\Programma\OS\031 - 内存文件 - Win\Debug\031 - 内存文件 - Win.pdb
