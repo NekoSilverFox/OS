@@ -141,35 +141,35 @@ DWORD dwThreadId;
 
 # 操作系统的功能和目标
 
-![image-20210223185732441](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210223185732441.png)
+![image-20210223185732441](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210223185732441.png)
 
-![image-20210223185857487](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210223185857487.png)
+![image-20210223185857487](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210223185857487.png)
 
 操作系统的概念：
 
-![image-20210223185933609](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210223185933609.png)
+![image-20210223185933609](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210223185933609.png)
 
-![image-20210223190028292](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210223190028292.png)
+![image-20210223190028292](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210223190028292.png)
 
-![image-20210223190106822](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210223190106822.png)
+![image-20210223190106822](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210223190106822.png)
 
-![image-20210223190324900](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210223190324900.png)
+![image-20210223190324900](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210223190324900.png)
 
-![image-20210223190445653](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210223190445653.png)
+![image-20210223190445653](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210223190445653.png)
 
-![image-20210223191004470](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210223191004470.png)
+![image-20210223191004470](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210223191004470.png)
 
-![image-20210223190522162](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210223190522162.png)
+![image-20210223190522162](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210223190522162.png)
 
 联机命令接口实例（Windows）- 联机命令接口 = **交互式**命令接口，例如cmd
 
-![image-20210223190740248](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210223190740248.png)
+![image-20210223190740248](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210223190740248.png)
 
-![image-20210223190829190](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210223190829190.png)
+![image-20210223190829190](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210223190829190.png)
 
-![image-20210223191108797](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210223191108797.png)
+![image-20210223191108797](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210223191108797.png)
 
-![image-20210223191130211](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210223191130211.png)
+![image-20210223191130211](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210223191130211.png)
 
 # 操作系统的四个特征
 
@@ -190,35 +190,35 @@ DWORD dwThreadId;
 
 并行计算：Параллельные вычислительные системы - **parallel computing**
 
-![image-20210223191605582](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210223191605582.png)
+![image-20210223191605582](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210223191605582.png)
 
-![image-20210223191807629](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210223191807629.png)
+![image-20210223191807629](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210223191807629.png)
 
 ## 共享
 
-![image-20210223192002297](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210223192002297.png)
+![image-20210223192002297](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210223192002297.png)
 
  ## 并发和共享的关系
 
-![image-20210223192204986](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210223192204986.png)
+![image-20210223192204986](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210223192204986.png)
 
 ## 虚拟
 
-![image-20210223192449830](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210223192449830.png)
+![image-20210223192449830](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210223192449830.png)
 
-![image-20210223192541488](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210223192541488.png)
+![image-20210223192541488](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210223192541488.png)
 
-![image-20210223192645107](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210223192645107.png)
+![image-20210223192645107](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210223192645107.png)
 
 ## 异步
 
- ![image-20210223193154196](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210223193154196.png)
+ ![image-20210223193154196](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210223193154196.png)
 
-![image-20210223193442962](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210223193442962.png)
+![image-20210223193442962](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210223193442962.png)
 
 # 操作系统的发展和分类
 
-![image-20210223193507746](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210223193507746.png)
+![image-20210223193507746](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210223193507746.png)
 
 ## 手工操作阶段
 
@@ -232,69 +232,69 @@ DWORD dwThreadId;
 
 ### 单道批处理系统
 
-![image-20210223194028277](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210223194028277.png)
+![image-20210223194028277](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210223194028277.png)
 
 ### 多道批处理系统
 
-![image-20210223194305906](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210223194305906.png)
+![image-20210223194305906](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210223194305906.png)
 
-![image-20210223194347979](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210223194347979.png)
+![image-20210223194347979](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210223194347979.png)
 
-![image-20210223194514184](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210223194514184.png)
+![image-20210223194514184](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210223194514184.png)
 
 ## 分时操作系统
 
-![image-20210223194647265](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210223194647265.png)
+![image-20210223194647265](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210223194647265.png)
 
 ## 实时操作体统
 
-![image-20210223194759199](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210223194759199.png)
+![image-20210223194759199](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210223194759199.png)
 
 ## 其他几种操作体统
 
-![image-20210223194835727](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210223194835727.png)
+![image-20210223194835727](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210223194835727.png)
 
 ## 总结
 
-![image-20210223194918014](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210223194918014.png)
+![image-20210223194918014](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210223194918014.png)
 
 # 操作系统的运行机制和体系结构
 
-![image-20210223194950773](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210223194950773.png)
+![image-20210223194950773](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210223194950773.png)
 
 ## 指令
 
 指令其实就是一个二进制文件（Linux中的bin）
 
-![image-20210223195209807](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210223195209807.png)
+![image-20210223195209807](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210223195209807.png)
 
-![image-20210223195312990](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210223195312990.png)
+![image-20210223195312990](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210223195312990.png)
 
-![image-20210223195409518](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210223195409518.png)
+![image-20210223195409518](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210223195409518.png)
 
-![image-20210223195505794](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210223195505794.png)
+![image-20210223195505794](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210223195505794.png)
 
-![image-20210223195625161](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210223195625161.png)
+![image-20210223195625161](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210223195625161.png)
 
 ## 操作系统的内核
 
-![image-20210223195758554](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210223195758554.png)
+![image-20210223195758554](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210223195758554.png)
 
-![image-20210223195918517](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210223195918517.png)
+![image-20210223195918517](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210223195918517.png)
 
-![image-20210223200006146](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210223200006146.png)
+![image-20210223200006146](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210223200006146.png)
 
-![image-20210223200239732](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210223200239732.png)
+![image-20210223200239732](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210223200239732.png)
 
 ## 总结
 
-![image-20210223200556571](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210223200556571.png)
+![image-20210223200556571](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210223200556571.png)
 
 # 中断和异常
 
 ## 中断
 
-![image-20210223200613337](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210223200613337.png)
+![image-20210223200613337](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210223200613337.png)
 
 **中断机制，实现了多道程序并发执行**
 
@@ -306,9 +306,9 @@ DWORD dwThreadId;
 - 某个用户进程发出**系统调用（内中断信号）**，请求输出。CPU切换为**核心态**，对中断进行处理
 - 某个进程的I/O操作完成，也可以引发系统中断
 
-![image-20210223201746485](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210223201746485.png)
+![image-20210223201746485](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210223201746485.png)
 
-![image-20210223202013819](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210223202013819.png)
+![image-20210223202013819](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210223202013819.png)
 
 **快速区分中断的类型：**
 
@@ -316,319 +316,319 @@ DWORD dwThreadId;
   - 内中断：中断来自于CPU内部
   - 外中断：中断来自于CPU外部（比如：I/O操作完成信号）
 
-![image-20210223202325256](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210223202325256.png)
+![image-20210223202325256](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210223202325256.png)
 
-![image-20210223202934108](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210223202934108.png)
+![image-20210223202934108](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210223202934108.png)
 
 ## 总结
 
-![image-20210223203041065](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210223203041065.png)
+![image-20210223203041065](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210223203041065.png)
 
 # 系统调用
 
-![image-20210223203058346](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210223203058346.png)
+![image-20210223203058346](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210223203058346.png)
 
-![image-20210223203156815](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210223203156815.png)
+![image-20210223203156815](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210223203156815.png)
 
-![image-20210223204121593](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210223204121593.png)
+![image-20210223204121593](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210223204121593.png)
 
-![image-20210223204339654](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210223204339654.png)
+![image-20210223204339654](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210223204339654.png)
 
 ## 系统调用和库函数的区别
 
 库函数就是我们编程时候用的库
 
-![image-20210223205020129](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210223205020129.png)
+![image-20210223205020129](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210223205020129.png)
 
 ## 系统调用背后的过程
 
-![image-20210223205328635](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210223205328635.png)
+![image-20210223205328635](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210223205328635.png)
 
-![image-20210223205343227](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210223205343227.png)
+![image-20210223205343227](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210223205343227.png)
 
-![image-20210223205527497](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210223205527497.png)
+![image-20210223205527497](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210223205527497.png)
 
 ## 总结
 
-![image-20210223205729005](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210223205729005.png)
+![image-20210223205729005](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210223205729005.png)
 
 # 进程
 
-![image-20210223221618912](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210223221618912.png)
+![image-20210223221618912](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210223221618912.png)
 
-![image-20210223221715653](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210223221715653.png)
+![image-20210223221715653](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210223221715653.png)
 
-![image-20210223221916291](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210223221916291.png)
+![image-20210223221916291](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210223221916291.png)
 
-![image-20210223222110307](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210223222110307.png)
+![image-20210223222110307](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210223222110307.png)
 
-![image-20210223222153923](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210223222153923.png)
+![image-20210223222153923](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210223222153923.png)
 
-![image-20210223222329823](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210223222329823.png)
+![image-20210223222329823](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210223222329823.png)
 
-![image-20210223222410072](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210223222410072.png)
+![image-20210223222410072](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210223222410072.png)
 
-![image-20210223222508976](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210223222508976.png)
+![image-20210223222508976](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210223222508976.png)
 
-![image-20210223222651387](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210223222651387.png)
+![image-20210223222651387](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210223222651387.png)
 
-![image-20210223222716003](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210223222716003.png)
+![image-20210223222716003](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210223222716003.png)
 
-![image-20210223222843247](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210223222843247.png)
+![image-20210223222843247](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210223222843247.png)
 
 ## 总结
 
-![image-20210223223058356](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210223223058356.png)
+![image-20210223223058356](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210223223058356.png)
 
 ## 进程的状态和转换
 
-![image-20210302201254833](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210302201254833.png)
+![image-20210302201254833](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210302201254833.png)
 
-![image-20210302201450917](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210302201450917.png)
+![image-20210302201450917](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210302201450917.png)
 
-![image-20210302201737342](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210302201737342.png)
+![image-20210302201737342](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210302201737342.png)
 
-![image-20210302202315958](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210302202315958.png)
+![image-20210302202315958](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210302202315958.png)
 
-![image-20210302202329686](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210302202329686.png)
+![image-20210302202329686](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210302202329686.png)
 
 ## 进程控制
 
-![image-20210302205715657](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210302205715657.png)
+![image-20210302205715657](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210302205715657.png)
 
-![image-20210302205817901](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210302205817901.png)
+![image-20210302205817901](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210302205817901.png)
 
-![image-20210302210017897](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210302210017897.png)
+![image-20210302210017897](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210302210017897.png)
 
-![image-20210302210224048](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210302210224048.png)
+![image-20210302210224048](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210302210224048.png)
 
-![image-20210302210416894](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210302210416894.png)
+![image-20210302210416894](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210302210416894.png)
 
-![image-20210302210518482](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210302210518482.png)
+![image-20210302210518482](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210302210518482.png)
 
-![image-20210302210626800](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210302210626800.png)
+![image-20210302210626800](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210302210626800.png)
 
-![image-20210302210701999](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210302210701999.png)
+![image-20210302210701999](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210302210701999.png)
 
-![image-20210302210729171](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210302210729171.png)
+![image-20210302210729171](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210302210729171.png)
 
 ## 进程通信
 
-![image-20210302210743089](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210302210743089.png)
+![image-20210302210743089](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210302210743089.png)
 
-![image-20210302210938669](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210302210938669.png)
+![image-20210302210938669](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210302210938669.png)
 
-![image-20210302211119421](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210302211119421.png)
+![image-20210302211119421](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210302211119421.png)
 
-![image-20210302211333423](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210302211333423.png)
+![image-20210302211333423](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210302211333423.png)
 
-![image-20210302211558271](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210302211558271.png)
+![image-20210302211558271](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210302211558271.png)
 
-![image-20210302211642745](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210302211642745.png)
+![image-20210302211642745](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210302211642745.png)
 
 # 线程
 
-![image-20210302225616050](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210302225616050.png)
+![image-20210302225616050](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210302225616050.png)
 
-![image-20210302225721748](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210302225721748.png)
+![image-20210302225721748](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210302225721748.png)
 
-![image-20210302225957875](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210302225957875.png)
+![image-20210302225957875](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210302225957875.png)
 
-![image-20210302230114869](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210302230114869.png)
+![image-20210302230114869](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210302230114869.png)
 
-![image-20210302230301583](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210302230301583.png)
+![image-20210302230301583](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210302230301583.png)
 
-![image-20210302230450192](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210302230450192.png)
+![image-20210302230450192](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210302230450192.png)
 
 - **在计算机中，透明指的是看不到，不透明指的是能看到。可以理解为 透明 == 隐形 == 看不到**
 
-![image-20210302230814728](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210302230814728.png)
+![image-20210302230814728](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210302230814728.png)
 
-![image-20210302230948039](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210302230948039.png)
+![image-20210302230948039](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210302230948039.png)
 
-![image-20210302231722383](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210302231722383.png)
+![image-20210302231722383](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210302231722383.png)
 
-![image-20210302233039347](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210302233039347.png)
+![image-20210302233039347](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210302233039347.png)
 
-![image-20210302233147051](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210302233147051.png)
+![image-20210302233147051](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210302233147051.png)
 
-![image-20210302233229607](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210302233229607.png)
+![image-20210302233229607](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210302233229607.png)
 
-![image-20210302233725317](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210302233725317.png)
+![image-20210302233725317](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210302233725317.png)
 
 # 处理机调度
 
 ## 处理机调度的基本概念和层次
 
-![image-20210306154403007](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210306154403007.png)
+![image-20210306154403007](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210306154403007.png)
 
-![image-20210306154557264](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210306154557264.png)
+![image-20210306154557264](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210306154557264.png)
 
-![image-20210306154704576](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210306154704576.png)
+![image-20210306154704576](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210306154704576.png)
 
-![image-20210306155015239](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210306155015239.png)
+![image-20210306155015239](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210306155015239.png)
 
-![image-20210306155222949](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210306155222949.png)
+![image-20210306155222949](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210306155222949.png)
 
-![image-20210306155334229](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210306155334229.png)
+![image-20210306155334229](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210306155334229.png)
 
-![image-20210306155529719](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210306155529719.png)
+![image-20210306155529719](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210306155529719.png)
 
-![image-20210306155627184](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210306155627184.png)
+![image-20210306155627184](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210306155627184.png)
 
 ## 进程调度的时机切换与过程调度方式
 
-![image-20210306160310821](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210306160310821.png)
+![image-20210306160310821](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210306160310821.png)
 
-![image-20210306160518722](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210306160518722.png)
+![image-20210306160518722](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210306160518722.png)
 
-![image-20210306161041786](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210306161041786.png)
+![image-20210306161041786](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210306161041786.png)
 
-![image-20210306161051919](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210306161051919.png)
+![image-20210306161051919](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210306161051919.png)
 
-![image-20210306161433412](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210306161433412.png)
+![image-20210306161433412](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210306161433412.png)
 
-![image-20210306161606132](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210306161606132.png)
+![image-20210306161606132](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210306161606132.png)
 
-![image-20210306161818629](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210306161818629.png)
+![image-20210306161818629](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210306161818629.png)
 
-![image-20210306161932623](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210306161932623.png)
+![image-20210306161932623](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210306161932623.png)
 
 ## 调度算法的评价指标
 
-![image-20210306162011723](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210306162011723.png)
+![image-20210306162011723](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210306162011723.png)
 
-![image-20210306162138991](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210306162138991.png)
+![image-20210306162138991](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210306162138991.png)
 
-![image-20210306162226926](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210306162226926.png)
+![image-20210306162226926](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210306162226926.png)
 
-![image-20210306162357184](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210306162357184.png)
+![image-20210306162357184](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210306162357184.png)
 
-![image-20210306162543847](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210306162543847.png)
+![image-20210306162543847](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210306162543847.png)
 
-![image-20210306162758781](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210306162758781.png)
+![image-20210306162758781](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210306162758781.png)
 
-![image-20210306162831876](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210306162831876.png)
+![image-20210306162831876](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210306162831876.png)
 
-![image-20210306162905075](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210306162905075.png)
+![image-20210306162905075](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210306162905075.png)
 
 ## 调度算法
 
-![image-20210308123701274](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210308123701274.png)
+![image-20210308123701274](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210308123701274.png)
 
-![image-20210308124108536](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210308124108536.png)
+![image-20210308124108536](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210308124108536.png)
 
-![image-20210308135051434](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210308135051434.png)
+![image-20210308135051434](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210308135051434.png)
 
-![image-20210308135608174](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210308135608174.png)
+![image-20210308135608174](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210308135608174.png)
 
-![image-20210308135836255](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210308135836255.png)
+![image-20210308135836255](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210308135836255.png)
 
-![image-20210308140015369](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210308140015369.png)
+![image-20210308140015369](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210308140015369.png)
 
-![image-20210308140509967](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210308140509967.png)
+![image-20210308140509967](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210308140509967.png)
 
-![image-20210308140414676](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210308140414676.png)
+![image-20210308140414676](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210308140414676.png)
 
-![image-20210308140532158](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210308140532158.png)
+![image-20210308140532158](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210308140532158.png)
 
-![image-20210308140715141](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210308140715141.png)
+![image-20210308140715141](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210308140715141.png)
 
-![image-20210308141821645](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210308141821645.png)
+![image-20210308141821645](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210308141821645.png)
 
-![image-20210308142610114](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210308142610114.png)
+![image-20210308142610114](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210308142610114.png)
 
-![image-20210308142535737](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210308142535737.png)
+![image-20210308142535737](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210308142535737.png)
 
-![image-20210308142648369](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210308142648369.png)
+![image-20210308142648369](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210308142648369.png)
 
-![image-20210308143113276](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210308143113276.png)
+![image-20210308143113276](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210308143113276.png)
 
-![image-20210308143305537](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210308143305537.png)
+![image-20210308143305537](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210308143305537.png)
 
-![image-20210308143457696](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210308143457696.png)
+![image-20210308143457696](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210308143457696.png)
 
 # 进程同步、互斥
 
-![image-20210308192538183](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210308192538183.png)
+![image-20210308192538183](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210308192538183.png)
 
-![image-20210308193041381](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210308193041381.png)
+![image-20210308193041381](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210308193041381.png)
 
-![image-20210308193209194](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210308193209194.png)
+![image-20210308193209194](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210308193209194.png)
 
-![image-20210308194756929](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210308194756929.png)![image-20210308194836303](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210308194836303.png)
+![image-20210308194756929](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210308194756929.png)![image-20210308194836303](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210308194836303.png)
 
-![image-20210308195239102](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210308195239102.png)
+![image-20210308195239102](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210308195239102.png)
 
-![image-20210308195336651](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210308195336651.png)
+![image-20210308195336651](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210308195336651.png)
 
-![image-20210308195723213](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210308195723213.png)
+![image-20210308195723213](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210308195723213.png)
 
-![image-20210308195934960](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210308195934960.png)
+![image-20210308195934960](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210308195934960.png)
 
-![image-20210308200348172](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210308200348172.png)
+![image-20210308200348172](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210308200348172.png)
 
-![image-20210308200439632](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210308200439632.png)
+![image-20210308200439632](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210308200439632.png)
 
-![image-20210308200534114](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210308200534114.png)
+![image-20210308200534114](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210308200534114.png)
 
-![image-20210308200635179](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210308200635179.png)
+![image-20210308200635179](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210308200635179.png)
 
-![image-20210308200725475](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210308200725475.png)
+![image-20210308200725475](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210308200725475.png)
 
 ## 进程互斥的硬件实现方法
 
-![image-20210308200929616](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210308200929616.png)
+![image-20210308200929616](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210308200929616.png)
 
-![image-20210308201313007](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210308201313007.png)![image-20210308201505003](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210308201505003.png)
+![image-20210308201313007](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210308201313007.png)![image-20210308201505003](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210308201505003.png)
 
 ## 信号机制
 
-![image-20210308202504310](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210308202504310.png)
+![image-20210308202504310](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210308202504310.png)
 
-![image-20210308202717299](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210308202717299.png)
+![image-20210308202717299](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210308202717299.png)
 
-![image-20210308203331771](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210308203331771.png)
+![image-20210308203331771](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210308203331771.png)
 
-![image-20210308203754576](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210308203754576.png)
+![image-20210308203754576](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210308203754576.png)
 
-![image-20210308204206445](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210308204206445.png)
+![image-20210308204206445](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210308204206445.png)
 
-![image-20210308204414409](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210308204414409.png)
+![image-20210308204414409](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210308204414409.png)
 
-![image-20210308204503072](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210308204503072.png)
+![image-20210308204503072](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210308204503072.png)
 
 ## 信号量机制实现进程互斥
 
-![image-20210308205604041](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210308205604041.png)
+![image-20210308205604041](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210308205604041.png)
 
-![image-20210308205717733](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210308205717733.png)
+![image-20210308205717733](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210308205717733.png)
 
-![image-20210308210236508](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210308210236508.png)
+![image-20210308210236508](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210308210236508.png)
 
-![image-20210308210611305](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210308210611305.png)
+![image-20210308210611305](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210308210611305.png)
 
-![image-20210308210737911](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210308210737911.png)
+![image-20210308210737911](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210308210737911.png)
 
 # 生产者-消费者问题
 
 **临界资源：同一时间只能有一个进程能够访问的资源**
 
-![image-20210309000752769](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210309000752769.png)
+![image-20210309000752769](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210309000752769.png)
 
 # 管程
 
-![image-20210309001721157](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210309001721157.png)
+![image-20210309001721157](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210309001721157.png)
 
-![image-20210309001813561](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210309001813561.png)
+![image-20210309001813561](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210309001813561.png)
 
-![image-20210309002143828](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210309002143828.png)
+![image-20210309002143828](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210309002143828.png)
 
-![image-20210309002522896](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210309002522896.png)
+![image-20210309002522896](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210309002522896.png)
 
-![image-20210309002829385](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210309002829385.png)
+![image-20210309002829385](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210309002829385.png)
 
-![image-20210309002943471](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210309002943471.png)
+![image-20210309002943471](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210309002943471.png)
 
-![image-20210309003032545](C:\Users\mi\AppData\Roaming\Typora\typora-user-images\image-20210309003032545.png)
+![image-20210309003032545](https://github.com/NekoSilverFox/OS/blob/main/Readme.assets/image-20210309003032545.png)
 
