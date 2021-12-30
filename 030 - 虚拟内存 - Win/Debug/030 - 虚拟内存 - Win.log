@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Users\mi\Desktop\Programma\OS\030 - 虚拟内存 - Win\main.cpp(118,15): warning C4477: “sscanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 2 拥有了类型“LPVOID *”
+  030 - 虚拟内存 - Win.vcxproj -> C:\Users\mi\Desktop\Programma\OS\030 - 虚拟内存 - Win\Debug\030 - 虚拟内存 - Win.exe

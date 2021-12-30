@@ -1,0 +1,5 @@
+﻿  main.cpp
+C:\Users\mi\Desktop\Programma\OS\031 - 内存文件 - Win\main.cpp(63,20): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\mi\Desktop\Programma\OS\031 - 内存文件 - Win\main.cpp(69,20): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\mi\Desktop\Programma\OS\031 - 内存文件 - Win\main.cpp(75,20): warning C4018: “<”: 有符号/无符号不匹配
+  031 - 内存文件 - Win.vcxproj -> C:\Users\mi\Desktop\Programma\OS\031 - 内存文件 - Win\Debug\031 - 内存文件 - Win.exe
